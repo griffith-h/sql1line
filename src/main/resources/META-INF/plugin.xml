@@ -6,10 +6,13 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.griffithh.sql1line.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.griffithh.sql1line.startup.MyProjectActivity" />
-    </extensions>
+    <actions>
+        <action id="com.github.griffithh.sql1line.actions.SqlCompressAction"
+                class="com.github.griffithh.sql1line.actions.SqlCompressAction"
+                text="1line"
+                description="Compress selected SQL into a single line">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
