@@ -5,7 +5,13 @@
     <vendor>griffith-h</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
+    <description>
+        <![CDATA[
+        <ul>
+          <li>Compress selected SQL into a single line</li>
+        </ul>
+        ]]>
+    </description>
 
     <actions>
         <action id="com.github.griffithh.sql1line.actions.SqlCompressAction"
