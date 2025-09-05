@@ -18,7 +18,9 @@
 - [ ] Configure the [CODECOV_TOKEN](https://docs.codecov.com/docs/quick-start) secret for automated test coverage reports on PRs
 
 <!-- Plugin description -->
-Compress SQL into one line
+Compress SQL into one line.
+This plugin helps developers format SQL queries by removing unnecessary whitespace and line breaks,
+making SQL code more compact and readable for specific use cases.
 <!-- Plugin description end -->
 
 ## Installation

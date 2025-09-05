@@ -5,13 +5,13 @@
     <vendor>griffith-h</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-    <description>
-        <![CDATA[
-        <ul>
-          <li>Compress selected SQL into a single line</li>
-        </ul>
-        ]]>
-    </description>
+    <description><![CDATA[
+Compress selected SQL into a single line.
+<ul>
+  <li>This plugin helps developers format SQL queries by removing unnecessary whitespace and line breaks,</li>
+  <li>making SQL code more compact and readable for specific use cases.</li>
+</ul>.
+]]></description>
 
     <actions>
         <action id="com.github.griffithh.sql1line.actions.SqlCompressAction"
